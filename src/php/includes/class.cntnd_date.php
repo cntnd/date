@@ -11,7 +11,7 @@ require_once("class.cntnd_util.php");
  */
 class CntndDate extends CntndUtil
 {
-    private $formats = [
+    private array $formats = [
         "DATE_SHORT" => '{"dateFormat":"d.m.y","timeFormat":""}',
         "DATE_LONG" => '{"dateFormat":"l, d. F Y","timeFormat":""}',
         "DATETIME_SHORT" => '{"dateFormat":"d.m.y","timeFormat":"H:i"}',

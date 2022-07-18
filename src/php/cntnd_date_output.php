@@ -21,8 +21,6 @@ if ($editmode) {
     echo '<div class="content_box"><label class="content_type_label">' . mi18n("MODULE") . '</label>';
 }
 
-echo $date;
-
 $tpl = cSmartyFrontend::getInstance();
 $tpl->assign('date', $date);
 $tpl->display('default.html');
