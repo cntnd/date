@@ -1,8 +1,10 @@
 ?><?php
 // cntnd_date_input
+$cntnd_module = "cntnd_date";
 
 // includes
 cInclude('module', 'includes/class.cntnd_date.php');
+cInclude('module', 'includes/style.cntnd_date.php');
 
 // other vars
 $cntndDate = new Cntnd\Date\CntndDate();
@@ -22,4 +24,3 @@ $cntndDate = new Cntnd\Date\CntndDate();
     Wert: <strong>{"dateFormat":"XXXX","timeFormat":"XXX"}</strong><br />
     XXXX => Date or Time Format or empty if not necessary. <a href="https://www.php.net/manual/en/datetime.format.php" target="_blank">See Date/Time formats</a>
 </div>
-?>
